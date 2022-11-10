@@ -1,4 +1,4 @@
-# Globo.com
+# Globo
 
 Presentation of a replica of the Globo.com website, working with basic html and css properties.
 
