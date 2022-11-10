@@ -1,0 +1,306 @@
+body {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/*############ HEADER ############*/
+
+header {
+  display: flex;
+  justify-content: center;
+
+  margin: 22px 0px;
+}
+
+header img {
+  width: 171px;
+  height: 36px;
+}
+
+/*############ NAV ############*/
+
+.horizontal-line-nav {
+  border: 1px solid #F5F6F7;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  margin-bottom: 39px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+
+  margin: 15px 0px;
+}
+
+nav li {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.g1 {
+  color: #C3170C;
+}
+
+.oglobo {
+  color: #1E4B9B;
+}
+
+.valor {
+  color: #006766;
+}
+
+.ge {
+  color: #07AA47;
+}
+
+.cartola {
+  color: #E3662B;
+}
+
+.globoplay {
+  color: #FB0735;
+}
+
+.dropz {
+  color: #FF75BB;
+}
+
+.gshow {
+  color: #EC7D00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.receitas {
+  color: #A81D83;
+}
+
+/*############ MAIN ############*/
+
+main {
+  width: 100%;
+  gap: 35px;
+
+  display: flex;
+}
+
+.vertical-line {
+  border: 1px solid #EBEDEF;
+  height: 127vh;
+
+}
+
+.left-page {
+  width: 48%;
+  margin-left: 40px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.left-page h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  
+  color: #C4160C;
+  margin-bottom: 29px;
+}
+
+.left-page-h2-wrapper {
+  width: 100%;
+
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-line-top {
+  border: 1px solid #EBEDEF;
+  width: 100%;
+
+  margin: 25px 0px;
+}
+
+.left-page h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+
+  color: #303134;
+}
+
+.left-page-top-news {
+  display: flex;
+  gap: 20px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.news img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.news-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  
+  color: #C4170C;
+  margin-bottom: 6px;
+}
+
+.news-caption {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+
+  color: #2F3134;
+}
+
+.other-news {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  
+  color: #2F3134;
+  margin-top: 9px;
+}
+
+.horizontal-line-bottom {
+  margin-top: 36px;
+  margin-bottom: 25px;
+  border: 1px solid #EBEDEF;
+  width: 100%;
+}
+
+.bottom-page {
+  margin-bottom: 87px;
+}
+
+.left-page-bottom-news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-page {
+  width: 36%;
+
+  display: flex;
+  gap: 22px;
+}
+
+.left-news-right-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 45px;
+}
+
+.left-news-right-page img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+
+  margin-bottom: 11px;
+}
+
+.left-news-right-page-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  
+  color: #16AE54;
+  margin-bottom: 6px;
+}
+
+.right-page-caption {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  
+  color: #2F3134;
+  margin-bottom: 8px;
+}
+
+.left-news-right-page-other-news {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+
+  color: #2F3134;
+}
+
+.vertical-line-right {
+  border: 1px solid #EBEDEF;
+  height: 105vh;
+}
+
+.right-news-right-page {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 53px;
+}
+
+.right-news-right-page img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+
+  margin-bottom: 11px;
+}
+
+.right-news-right-page-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  
+  color: #EC8006;
+  margin-bottom: 6px;
+}
+
+.right-news-right-page-other-news {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+
+  
+  color: #2F3134;
+  margin-bottom: 9px;
+}
+
