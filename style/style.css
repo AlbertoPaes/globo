@@ -101,7 +101,6 @@ main {
 .vertical-line {
   border: 1px solid #EBEDEF;
   height: 127vh;
-
 }
 
 .left-page {
@@ -263,7 +262,7 @@ main {
 
 .vertical-line-right {
   border: 1px solid #EBEDEF;
-  height: 105vh;
+  height: 127vh;
 }
 
 .right-news-right-page {
